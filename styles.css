@@ -134,11 +134,9 @@ table.gn-seletable {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #111;
 }
 
-.gn-seletable td,
-.gn-seletable th {
+.gn-seletable td {
   border: 1px solid #111;
   text-align: left;
   padding: 30px;
