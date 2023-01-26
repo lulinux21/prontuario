@@ -59,7 +59,7 @@
 }
 
 .info-pessoa {
-  margin-top: 50px;
+  margin-top: 20px;
   flex: 4;
   font-size: 11px;
 }
@@ -128,4 +128,17 @@
 .anotacoes {
   padding: 5px;
   border: 1px solid #111;
+}
+
+table.gn-seletable {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.gn-seletable td,
+.gn-seletable th {
+  border: 1px solid #111;
+  text-align: left;
+  padding: 30px;
 }
