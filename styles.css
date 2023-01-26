@@ -94,3 +94,29 @@
 .info-complementar p {
   margin-bottom: 10px;
 }
+
+.assinatura {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.assinatura-one {
+  flex: 1;
+
+  border: 1px solid #111;
+  text-align: center;
+  line-height: 80px;
+}
+
+.assinatura-two {
+  flex: 1;
+}
+
+.caracteristicas {
+  display: flex;
+  padding: 2px 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
