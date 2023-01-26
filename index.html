@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>A4</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
-      @page {
-        size: A4;
-      }
-    </style>
-  </head>
 
-  <body class="A4">
-    <section class="sheet">
-      <div class="cabecalho">
-        <div class="logo">
-          <img src="./politec.png" alt="Logo Polícia Técnica" />
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <title>A4</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <style>
+    @page {
+      size: A4;
+    }
+  </style>
+</head>
+
+<body class="A4">
+  <section class="sheet">
+    <div class="cabecalho">
+
+      <div class="logo">
+        <img src="./politec.png" alt="Logo Polícia Técnica" />
       </div>
-    </section>
-  </body>
+
+      <div class="info-gov">
+        <p>Governo do estado do Amapá</p>
+        <p>Polícia Técnico-Científica</p>
+        <p>Departamento de indentificação civil e criminal</p>
+
+        <br>
+        <p class="paragraph">Prontuário Civil</p>
+      </div>
+
+      <div class="info-processo">
+        <p>Processo: <span>xxxxxxxxx</span></p>
+        <br>
+        <p><img src="./cod-barra.png" alt="código de barras do processo"></p>
+      </div>
+    </div>
+    <div class="infos-gerais">
+      <div class="info-pessoa">
+        <p>CPF<span style="margin-left: 45px;">000.000.000-00</span></p>
+        <p>Nome<span style="margin-left: 30px;">Maria Aparecida Torres E Silva</span></p>
+        <p>Filiação<span style="margin-left: 20px; line-height: 20px;">Francisco Do Nascimento Gouveia Silva e Francisco Pereira Nunus e Raimundo Ataide Teive</span> <span style="margin-left: 65px;">Maria De Lurdes Batista Torres</span></p>
+
+      </div>
+      <div class="foto-pessoa">
+        <p>foto do cidadão</p>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
