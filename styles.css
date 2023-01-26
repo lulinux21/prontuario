@@ -90,3 +90,7 @@
   gap: 10px;
   display: flex;
 }
+
+.info-complementar p {
+  margin-bottom: 10px;
+}
