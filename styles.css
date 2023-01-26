@@ -84,13 +84,6 @@
   background-color: #fff;
 }
 
-.anotacoes {
-  border: 1px solid #111;
-  padding: 10px;
-  gap: 10px;
-  display: flex;
-}
-
 .info-complementar p {
   margin-bottom: 10px;
 }
@@ -119,4 +112,20 @@
   padding: 2px 10px;
   font-size: 13px;
   font-weight: bold;
+}
+
+.box-anotacoes {
+  padding: 0 10px;
+}
+
+.box-anotacoes .title {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+.anotacoes {
+  padding: 5px;
+  border: 1px solid #111;
 }
